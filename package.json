@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  }
+}
