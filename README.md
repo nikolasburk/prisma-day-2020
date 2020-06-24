@@ -13,9 +13,15 @@ git clone git@github.com:nikolasburk/prisma-day-2020.git
 cd prisma-day-2020
 ```
 
-Alternatively, you can also download the project via the GitHub UI. Click the green **Clone**-button in the top-right corner and then click on **Download ZIP**.
+> Alternatively, you can also download the project via the GitHub UI. Click the green **Clone**-button in the top-right corner and then click on **Download ZIP**.
 
 ### 2. Install dependencies
+
+Install the npm dependencies with the following command:
+
+```
+npm install
+```
 
 ## Workshop
 
