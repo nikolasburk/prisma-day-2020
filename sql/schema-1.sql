@@ -9,7 +9,7 @@ CREATE TABLE "public"."Post" (
   "createdAt" TIMESTAMP NOT NULL DEFAULT now(),
   content TEXT,
   published BOOLEAN NOT NULL DEFAULT false,
-  "authorId" INTEGER NOT NULL,
+  "authorId" INTEGER,
   FOREIGN KEY ("authorId") REFERENCES "public"."User"(id)
 );
 CREATE TABLE "public"."Profile" (
